@@ -1,0 +1,1 @@
+{"num_leaves": 234, "min_data_in_leaf": 17, "n_estimators": 313, "min_child_samples": 2, "boosting_type": "gbdt", "objective": "multiclass", "num_class": 3, "metric": "multi_logloss", "random_state": 42}
