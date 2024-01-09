@@ -1,0 +1,1 @@
+{"learning_rate": 0.12844031728258057, "feature_fraction": 0.47414782515524534, "bagging_fraction": 0.7846100271861661, "lambda_l1": 3.805769924899612e-08, "lambda_l2": 1.7390351172611058, "max_bin": 487, "boosting_type": "gbdt", "objective": "multiclass", "num_class": 3, "metric": "multi_logloss", "random_state": 42}
