@@ -1,0 +1,773 @@
+Model: "random_forest_model_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+=================================================================
+Total params: 1 (1.00 Byte)
+Trainable params: 0 (0.00 Byte)
+Non-trainable params: 1 (1.00 Byte)
+_________________________________________________________________
+Type: "RANDOM_FOREST"
+Task: CLASSIFICATION
+Label: "__LABEL"
+
+Input Features (34):
+	age
+	area_percentage
+	count_families
+	count_floors_pre_eq
+	foundation_type_h
+	foundation_type_r
+	foundation_type_u
+	geo_level_1_id
+	geo_level_2_id
+	geo_level_3_id
+	ground_floor_type_f
+	ground_floor_type_v
+	ground_floor_type_x
+	has_secondary_use
+	has_superstructure_adobe_mud
+	has_superstructure_bamboo
+	has_superstructure_cement_mortar_brick
+	has_superstructure_cement_mortar_stone
+	has_superstructure_mud_mortar_brick
+	has_superstructure_mud_mortar_stone
+	has_superstructure_other
+	has_superstructure_rc_engineered
+	has_superstructure_rc_non_engineered
+	has_superstructure_stone_flag
+	has_superstructure_timber
+	height_percentage
+	land_surface_condition_n
+	land_surface_condition_o
+	other_floor_type_q
+	plan_configuration_u
+	position_s
+	roof_type_n
+	roof_type_q
+	roof_type_x
+
+No weights
+
+Variable Importance: INV_MEAN_MIN_DEPTH:
+    1.                                    "age"  0.264984 ################
+    2.                      "foundation_type_r"  0.248278 ##############
+    3.                         "geo_level_1_id"  0.247016 #############
+    4.                        "area_percentage"  0.175592 #####
+    5.                      "foundation_type_h"  0.175095 #####
+    6.                         "count_families"  0.161742 ###
+    7.                    "count_floors_pre_eq"  0.157264 ###
+    8.                      "foundation_type_u"  0.149905 ##
+    9.                         "geo_level_2_id"  0.137893 #
+   10.                         "geo_level_3_id"  0.134215 
+   11.           "has_superstructure_adobe_mud"  0.130471 
+   12.                    "ground_floor_type_x"  0.129008 
+   13.    "has_superstructure_mud_mortar_brick"  0.128420 
+   14.              "has_superstructure_bamboo"  0.128383 
+   15.                    "ground_floor_type_v"  0.128364 
+   16.                    "ground_floor_type_f"  0.128298 
+   17.                      "has_secondary_use"  0.128272 
+   18. "has_superstructure_cement_mortar_brick"  0.128227 
+   19. "has_superstructure_cement_mortar_stone"  0.128169 
+   20.              "has_superstructure_timber"  0.128105 
+   21.    "has_superstructure_mud_mortar_stone"  0.128083 
+   22.       "has_superstructure_rc_engineered"  0.128070 
+   23.                      "height_percentage"  0.128065 
+   24.               "has_superstructure_other"  0.128046 
+   25.          "has_superstructure_stone_flag"  0.128030 
+   26.   "has_superstructure_rc_non_engineered"  0.128030 
+
+Variable Importance: MEAN_DECREASE_IN_ACCURACY:
+    1.                         "geo_level_1_id"  0.040292 ################
+    2.                                    "age"  0.018803 ########
+    3.                      "foundation_type_r"  0.013047 #####
+    4.                      "foundation_type_h"  0.005372 ###
+    5.                         "count_families"  0.002686 ##
+    6.                        "area_percentage"  0.001535 #
+    7.                    "count_floors_pre_eq"  0.001535 #
+    8.    "has_superstructure_mud_mortar_brick"  0.000767 #
+    9.                    "ground_floor_type_v"  0.000384 #
+   10.       "has_superstructure_rc_engineered"  0.000000 #
+   11.                            "roof_type_x"  0.000000 #
+   12.   "has_superstructure_rc_non_engineered"  0.000000 #
+   13.          "has_superstructure_stone_flag"  0.000000 #
+   14.                      "height_percentage"  0.000000 #
+   15.               "land_surface_condition_n"  0.000000 #
+   16.               "land_surface_condition_o"  0.000000 #
+   17.                     "other_floor_type_q"  0.000000 #
+   18.                   "plan_configuration_u"  0.000000 #
+   19.                             "position_s"  0.000000 #
+   20.                            "roof_type_n"  0.000000 #
+   21.                            "roof_type_q"  0.000000 #
+   22.               "has_superstructure_other"  0.000000 #
+   23.    "has_superstructure_mud_mortar_stone"  0.000000 #
+   24.                      "has_secondary_use"  0.000000 #
+   25.                    "ground_floor_type_x"  0.000000 #
+   26.                    "ground_floor_type_f"  0.000000 #
+   27.                      "foundation_type_u"  0.000000 #
+   28. "has_superstructure_cement_mortar_stone" -0.000384 
+   29.              "has_superstructure_timber" -0.000384 
+   30. "has_superstructure_cement_mortar_brick" -0.000384 
+   31.              "has_superstructure_bamboo" -0.000384 
+   32.           "has_superstructure_adobe_mud" -0.000767 
+   33.                         "geo_level_2_id" -0.001535 
+   34.                         "geo_level_3_id" -0.002686 
+
+Variable Importance: MEAN_DECREASE_IN_AP_1_VS_OTHERS:
+    1.                                    "age"  0.079311 ################
+    2.                         "geo_level_1_id"  0.016149 ###
+    3.                        "area_percentage"  0.015325 ###
+    4.                         "count_families"  0.011920 ##
+    5.                      "foundation_type_h"  0.009667 ##
+    6.                         "geo_level_2_id"  0.002432 #
+    7.           "has_superstructure_adobe_mud"  0.001770 
+    8.                    "ground_floor_type_x"  0.001369 
+    9.              "has_superstructure_bamboo"  0.000937 
+   10.    "has_superstructure_mud_mortar_brick"  0.000890 
+   11.       "has_superstructure_rc_engineered"  0.000539 
+   12. "has_superstructure_cement_mortar_brick"  0.000450 
+   13.                      "has_secondary_use"  0.000421 
+   14.                    "ground_floor_type_f"  0.000356 
+   15.                      "foundation_type_u"  0.000351 
+   16.              "has_superstructure_timber"  0.000172 
+   17.               "has_superstructure_other"  0.000114 
+   18.                            "roof_type_q"  0.000000 
+   19.                   "plan_configuration_u"  0.000000 
+   20.                            "roof_type_x"  0.000000 
+   21.                     "other_floor_type_q"  0.000000 
+   22.                             "position_s"  0.000000 
+   23.               "land_surface_condition_o"  0.000000 
+   24.               "land_surface_condition_n"  0.000000 
+   25.                            "roof_type_n"  0.000000 
+   26.          "has_superstructure_stone_flag"  0.000000 
+   27.   "has_superstructure_rc_non_engineered"  0.000000 
+   28.                      "height_percentage" -0.000200 
+   29.                         "geo_level_3_id" -0.000237 
+   30.    "has_superstructure_mud_mortar_stone" -0.000289 
+   31.                    "ground_floor_type_v" -0.000467 
+   32. "has_superstructure_cement_mortar_stone" -0.000545 
+   33.                      "foundation_type_r" -0.002835 
+   34.                    "count_floors_pre_eq" -0.003026 
+
+Variable Importance: MEAN_DECREASE_IN_AP_2_VS_OTHERS:
+    1.                                    "age"  0.034644 ################
+    2.                         "geo_level_1_id"  0.008675 ####
+    3.                        "area_percentage"  0.004652 ###
+    4.                      "foundation_type_h"  0.004622 ###
+    5.                         "count_families"  0.003523 ##
+    6.                    "count_floors_pre_eq"  0.002595 ##
+    7.                      "foundation_type_u"  0.001525 #
+    8.                      "foundation_type_r"  0.001233 #
+    9.                    "ground_floor_type_x"  0.000523 #
+   10.                         "geo_level_2_id"  0.000474 #
+   11.              "has_superstructure_timber"  0.000379 #
+   12.                      "has_secondary_use"  0.000283 #
+   13.    "has_superstructure_mud_mortar_brick"  0.000208 #
+   14.                    "ground_floor_type_v"  0.000124 #
+   15.               "has_superstructure_other"  0.000062 #
+   16. "has_superstructure_cement_mortar_brick"  0.000060 #
+   17.    "has_superstructure_mud_mortar_stone"  0.000006 #
+   18.                            "roof_type_q"  0.000000 #
+   19.                            "roof_type_x"  0.000000 #
+   20.                            "roof_type_n"  0.000000 #
+   21.                             "position_s"  0.000000 #
+   22.                   "plan_configuration_u"  0.000000 #
+   23.                     "other_floor_type_q"  0.000000 #
+   24.               "land_surface_condition_o"  0.000000 #
+   25.               "land_surface_condition_n"  0.000000 #
+   26.          "has_superstructure_stone_flag"  0.000000 #
+   27.   "has_superstructure_rc_non_engineered"  0.000000 #
+   28.       "has_superstructure_rc_engineered" -0.000014 #
+   29.           "has_superstructure_adobe_mud" -0.000022 #
+   30.              "has_superstructure_bamboo" -0.000024 #
+   31.                      "height_percentage" -0.000092 #
+   32. "has_superstructure_cement_mortar_stone" -0.000155 #
+   33.                    "ground_floor_type_f" -0.000187 #
+   34.                         "geo_level_3_id" -0.002558 
+
+Variable Importance: MEAN_DECREASE_IN_AP_3_VS_OTHERS:
+    1.                         "geo_level_1_id"  0.037595 ################
+    2.                         "count_families"  0.005240 ####
+    3.                                    "age"  0.001957 ###
+    4.                      "foundation_type_u"  0.001482 ###
+    5.                    "ground_floor_type_x"  0.001217 ###
+    6.                         "geo_level_3_id"  0.000973 ##
+    7.                      "foundation_type_r"  0.000827 ##
+    8.                    "ground_floor_type_f"  0.000351 ##
+    9.                    "ground_floor_type_v"  0.000095 ##
+   10.    "has_superstructure_mud_mortar_brick"  0.000054 ##
+   11.              "has_superstructure_timber"  0.000051 ##
+   12. "has_superstructure_cement_mortar_brick"  0.000000 ##
+   13.               "has_superstructure_other"  0.000000 ##
+   14.               "land_surface_condition_n"  0.000000 ##
+   15.   "has_superstructure_rc_non_engineered"  0.000000 ##
+   16.          "has_superstructure_stone_flag"  0.000000 ##
+   17.                            "roof_type_x"  0.000000 ##
+   18.               "land_surface_condition_o"  0.000000 ##
+   19.                     "other_floor_type_q"  0.000000 ##
+   20.                   "plan_configuration_u"  0.000000 ##
+   21.                             "position_s"  0.000000 ##
+   22.                            "roof_type_n"  0.000000 ##
+   23.                            "roof_type_q"  0.000000 ##
+   24.       "has_superstructure_rc_engineered" -0.000001 ##
+   25.                      "height_percentage" -0.000008 ##
+   26. "has_superstructure_cement_mortar_stone" -0.000025 ##
+   27.    "has_superstructure_mud_mortar_stone" -0.000056 ##
+   28.              "has_superstructure_bamboo" -0.000128 ##
+   29.                      "has_secondary_use" -0.000160 ##
+   30.           "has_superstructure_adobe_mud" -0.000325 ##
+   31.                    "count_floors_pre_eq" -0.000996 ##
+   32.                         "geo_level_2_id" -0.002599 #
+   33.                      "foundation_type_h" -0.004213 #
+   34.                        "area_percentage" -0.007214 
+
+Variable Importance: MEAN_DECREASE_IN_AUC_1_VS_OTHERS:
+    1.                                    "age"  0.028598 ################
+    2.                         "count_families"  0.013508 ########
+    3.                         "geo_level_1_id"  0.011400 #######
+    4.                      "foundation_type_u"  0.006428 ####
+    5.                      "foundation_type_h"  0.003763 ###
+    6.                         "geo_level_2_id"  0.003059 ###
+    7.                    "count_floors_pre_eq"  0.001828 ##
+    8.                    "ground_floor_type_x"  0.000636 #
+    9.              "has_superstructure_timber"  0.000186 #
+   10.                    "ground_floor_type_f"  0.000110 #
+   11.                      "has_secondary_use"  0.000077 #
+   12.       "has_superstructure_rc_engineered"  0.000050 #
+   13.               "has_superstructure_other"  0.000037 #
+   14.                   "plan_configuration_u"  0.000000 #
+   15.          "has_superstructure_stone_flag"  0.000000 #
+   16.               "land_surface_condition_n"  0.000000 #
+   17.   "has_superstructure_rc_non_engineered"  0.000000 #
+   18.               "land_surface_condition_o"  0.000000 #
+   19.                     "other_floor_type_q"  0.000000 #
+   20.                             "position_s"  0.000000 #
+   21.                            "roof_type_n"  0.000000 #
+   22.                            "roof_type_q"  0.000000 #
+   23.                            "roof_type_x"  0.000000 #
+   24.                      "height_percentage" -0.000004 #
+   25. "has_superstructure_cement_mortar_brick" -0.000026 #
+   26.    "has_superstructure_mud_mortar_stone" -0.000059 #
+   27.              "has_superstructure_bamboo" -0.000063 #
+   28. "has_superstructure_cement_mortar_stone" -0.000064 #
+   29.    "has_superstructure_mud_mortar_brick" -0.000296 #
+   30.           "has_superstructure_adobe_mud" -0.000695 #
+   31.                    "ground_floor_type_v" -0.000937 #
+   32.                      "foundation_type_r" -0.001178 
+   33.                        "area_percentage" -0.001358 
+   34.                         "geo_level_3_id" -0.003138 
+
+Variable Importance: MEAN_DECREASE_IN_AUC_2_VS_OTHERS:
+    1.                                    "age"  0.030366 ################
+    2.                         "geo_level_1_id"  0.017757 #########
+    3.                      "foundation_type_r"  0.003652 ##
+    4.                         "count_families"  0.002666 ##
+    5.                      "foundation_type_u"  0.002524 ##
+    6.                      "foundation_type_h"  0.002415 #
+    7.                         "geo_level_2_id"  0.000913 #
+    8.                    "ground_floor_type_x"  0.000369 
+    9.    "has_superstructure_mud_mortar_brick"  0.000170 
+   10.                    "ground_floor_type_f"  0.000123 
+   11.              "has_superstructure_timber"  0.000083 
+   12.               "has_superstructure_other"  0.000045 
+   13.       "has_superstructure_rc_engineered"  0.000030 
+   14.                    "ground_floor_type_v"  0.000003 
+   15.                            "roof_type_n"  0.000000 
+   16.                             "position_s"  0.000000 
+   17.                   "plan_configuration_u"  0.000000 
+   18.                     "other_floor_type_q"  0.000000 
+   19.               "land_surface_condition_o"  0.000000 
+   20.                            "roof_type_q"  0.000000 
+   21.                            "roof_type_x"  0.000000 
+   22.               "land_surface_condition_n"  0.000000 
+   23.   "has_superstructure_rc_non_engineered"  0.000000 
+   24.          "has_superstructure_stone_flag"  0.000000 
+   25. "has_superstructure_cement_mortar_stone" -0.000001 
+   26.                      "has_secondary_use" -0.000001 
+   27.                      "height_percentage" -0.000016 
+   28.    "has_superstructure_mud_mortar_stone" -0.000050 
+   29. "has_superstructure_cement_mortar_brick" -0.000074 
+   30.                         "geo_level_3_id" -0.000337 
+   31.              "has_superstructure_bamboo" -0.000415 
+   32.                        "area_percentage" -0.000478 
+   33.           "has_superstructure_adobe_mud" -0.000568 
+   34.                    "count_floors_pre_eq" -0.001570 
+
+Variable Importance: MEAN_DECREASE_IN_AUC_3_VS_OTHERS:
+    1.                         "geo_level_1_id"  0.016448 ################
+    2.                                    "age"  0.009012 #########
+    3.                      "foundation_type_r"  0.003075 ####
+    4.                         "count_families"  0.002942 ###
+    5.                      "foundation_type_h"  0.002616 ###
+    6.                      "foundation_type_u"  0.001796 ##
+    7.                         "geo_level_2_id"  0.000279 #
+    8.                    "ground_floor_type_x"  0.000190 #
+    9.    "has_superstructure_mud_mortar_brick"  0.000115 #
+   10.                    "ground_floor_type_f"  0.000096 #
+   11.              "has_superstructure_timber"  0.000063 #
+   12.                   "plan_configuration_u"  0.000000 #
+   13.               "land_surface_condition_n"  0.000000 #
+   14.          "has_superstructure_stone_flag"  0.000000 #
+   15.   "has_superstructure_rc_non_engineered"  0.000000 #
+   16.               "has_superstructure_other"  0.000000 #
+   17.               "land_surface_condition_o"  0.000000 #
+   18.                     "other_floor_type_q"  0.000000 #
+   19.                             "position_s"  0.000000 #
+   20.                            "roof_type_n"  0.000000 #
+   21.                            "roof_type_q"  0.000000 #
+   22.                            "roof_type_x"  0.000000 #
+   23.       "has_superstructure_rc_engineered" -0.000008 #
+   24.    "has_superstructure_mud_mortar_stone" -0.000024 #
+   25.                      "height_percentage" -0.000042 #
+   26. "has_superstructure_cement_mortar_brick" -0.000054 #
+   27. "has_superstructure_cement_mortar_stone" -0.000054 #
+   28.              "has_superstructure_bamboo" -0.000075 #
+   29.                      "has_secondary_use" -0.000076 #
+   30.                    "count_floors_pre_eq" -0.000078 #
+   31.           "has_superstructure_adobe_mud" -0.000083 #
+   32.                    "ground_floor_type_v" -0.000085 #
+   33.                         "geo_level_3_id" -0.000465 
+   34.                        "area_percentage" -0.001551 
+
+Variable Importance: MEAN_DECREASE_IN_PRAUC_1_VS_OTHERS:
+    1.                                    "age"  0.073712 ################
+    2.                         "geo_level_1_id"  0.012701 ###
+    3.                        "area_percentage"  0.011852 ###
+    4.                         "count_families"  0.008394 ##
+    5.                      "foundation_type_h"  0.006073 ##
+    6.                         "geo_level_2_id"  0.001926 #
+    7.                    "ground_floor_type_x"  0.001072 #
+    8.           "has_superstructure_adobe_mud"  0.000867 #
+    9.              "has_superstructure_bamboo"  0.000800 #
+   10.    "has_superstructure_mud_mortar_brick"  0.000733 #
+   11.       "has_superstructure_rc_engineered"  0.000489 #
+   12.                      "has_secondary_use"  0.000386 #
+   13. "has_superstructure_cement_mortar_brick"  0.000384 #
+   14.                    "ground_floor_type_f"  0.000254 #
+   15.              "has_superstructure_timber"  0.000147 #
+   16.               "has_superstructure_other"  0.000114 #
+   17.                            "roof_type_x"  0.000000 #
+   18.                   "plan_configuration_u"  0.000000 #
+   19.                     "other_floor_type_q"  0.000000 #
+   20.                             "position_s"  0.000000 #
+   21.               "land_surface_condition_o"  0.000000 #
+   22.                            "roof_type_q"  0.000000 #
+   23.               "land_surface_condition_n"  0.000000 #
+   24.                            "roof_type_n"  0.000000 #
+   25.          "has_superstructure_stone_flag"  0.000000 #
+   26.   "has_superstructure_rc_non_engineered"  0.000000 #
+   27.                      "height_percentage" -0.000180 #
+   28.    "has_superstructure_mud_mortar_stone" -0.000391 
+   29. "has_superstructure_cement_mortar_stone" -0.000631 
+   30.                    "ground_floor_type_v" -0.000679 
+   31.                      "foundation_type_u" -0.000785 
+   32.                         "geo_level_3_id" -0.001206 
+   33.                    "count_floors_pre_eq" -0.004872 
+   34.                      "foundation_type_r" -0.005326 
+
+Variable Importance: MEAN_DECREASE_IN_PRAUC_2_VS_OTHERS:
+    1.                                    "age"  0.034444 ################
+    2.                         "geo_level_1_id"  0.008922 ####
+    3.                        "area_percentage"  0.004828 ###
+    4.                      "foundation_type_h"  0.004675 ###
+    5.                         "count_families"  0.003473 ##
+    6.                    "count_floors_pre_eq"  0.002698 ##
+    7.                      "foundation_type_u"  0.001695 #
+    8.                      "foundation_type_r"  0.001382 #
+    9.                         "geo_level_2_id"  0.000705 #
+   10.                    "ground_floor_type_x"  0.000433 #
+   11.              "has_superstructure_timber"  0.000378 #
+   12.                      "has_secondary_use"  0.000262 #
+   13.    "has_superstructure_mud_mortar_brick"  0.000203 #
+   14.                    "ground_floor_type_v"  0.000108 #
+   15.               "has_superstructure_other"  0.000060 #
+   16. "has_superstructure_cement_mortar_brick"  0.000055 #
+   17.    "has_superstructure_mud_mortar_stone"  0.000011 
+   18.                            "roof_type_q"  0.000000 
+   19.                            "roof_type_x"  0.000000 
+   20.                            "roof_type_n"  0.000000 
+   21.                             "position_s"  0.000000 
+   22.                   "plan_configuration_u"  0.000000 
+   23.                     "other_floor_type_q"  0.000000 
+   24.               "land_surface_condition_o"  0.000000 
+   25.               "land_surface_condition_n"  0.000000 
+   26.          "has_superstructure_stone_flag"  0.000000 
+   27.   "has_superstructure_rc_non_engineered"  0.000000 
+   28.       "has_superstructure_rc_engineered" -0.000015 
+   29.              "has_superstructure_bamboo" -0.000047 
+   30.           "has_superstructure_adobe_mud" -0.000063 
+   31.                      "height_percentage" -0.000094 
+   32. "has_superstructure_cement_mortar_stone" -0.000165 
+   33.                    "ground_floor_type_f" -0.000196 
+   34.                         "geo_level_3_id" -0.002258 
+
+Variable Importance: MEAN_DECREASE_IN_PRAUC_3_VS_OTHERS:
+    1.                         "geo_level_1_id"  0.037616 ################
+    2.                         "count_families"  0.004949 ####
+    3.                                    "age"  0.001999 ###
+    4.                      "foundation_type_u"  0.001570 ###
+    5.                      "foundation_type_r"  0.000948 ##
+    6.                    "ground_floor_type_x"  0.000751 ##
+    7.                    "ground_floor_type_f"  0.000377 ##
+    8.                         "geo_level_3_id"  0.000327 ##
+    9.                    "ground_floor_type_v"  0.000069 ##
+   10.    "has_superstructure_mud_mortar_brick"  0.000055 ##
+   11.              "has_superstructure_timber"  0.000047 ##
+   12.       "has_superstructure_rc_engineered"  0.000002 ##
+   13.   "has_superstructure_rc_non_engineered"  0.000000 ##
+   14.               "has_superstructure_other"  0.000000 ##
+   15.               "land_surface_condition_n"  0.000000 ##
+   16.          "has_superstructure_stone_flag"  0.000000 ##
+   17.                            "roof_type_x"  0.000000 ##
+   18.               "land_surface_condition_o"  0.000000 ##
+   19.                     "other_floor_type_q"  0.000000 ##
+   20.                   "plan_configuration_u"  0.000000 ##
+   21.                             "position_s"  0.000000 ##
+   22.                            "roof_type_n"  0.000000 ##
+   23.                            "roof_type_q"  0.000000 ##
+   24.                      "height_percentage" -0.000010 ##
+   25. "has_superstructure_cement_mortar_brick" -0.000010 ##
+   26. "has_superstructure_cement_mortar_stone" -0.000030 ##
+   27.    "has_superstructure_mud_mortar_stone" -0.000049 ##
+   28.              "has_superstructure_bamboo" -0.000127 ##
+   29.                      "has_secondary_use" -0.000142 ##
+   30.           "has_superstructure_adobe_mud" -0.000349 ##
+   31.                    "count_floors_pre_eq" -0.001535 ##
+   32.                         "geo_level_2_id" -0.002708 #
+   33.                      "foundation_type_h" -0.004258 #
+   34.                        "area_percentage" -0.007176 
+
+Variable Importance: NUM_AS_ROOT:
+    1.            "foundation_type_r" 102.000000 ################
+    2.                          "age" 66.000000 ##########
+    3.            "foundation_type_h" 39.000000 ######
+    4.          "count_floors_pre_eq" 28.000000 ####
+    5.              "area_percentage" 27.000000 ####
+    6.               "count_families" 19.000000 ##
+    7. "has_superstructure_adobe_mud"  6.000000 
+    8.               "geo_level_1_id"  5.000000 
+    9.               "geo_level_2_id"  3.000000 
+   10.            "foundation_type_u"  2.000000 
+   11.          "ground_floor_type_x"  2.000000 
+   12.               "geo_level_3_id"  1.000000 
+
+Variable Importance: NUM_NODES:
+    1.                                    "age" 4181.000000 ################
+    2.                        "area_percentage" 2529.000000 #########
+    3.                         "geo_level_1_id" 1562.000000 #####
+    4.                         "count_families" 1229.000000 ####
+    5.                    "count_floors_pre_eq" 1111.000000 ####
+    6.                      "foundation_type_r" 863.000000 ###
+    7.                      "foundation_type_h" 782.000000 ##
+    8.                         "geo_level_2_id" 718.000000 ##
+    9.                      "foundation_type_u" 556.000000 ##
+   10.                         "geo_level_3_id" 546.000000 ##
+   11.                    "ground_floor_type_f" 25.000000 
+   12.                    "ground_floor_type_x" 21.000000 
+   13.           "has_superstructure_adobe_mud" 21.000000 
+   14.                      "has_secondary_use" 20.000000 
+   15.                    "ground_floor_type_v" 18.000000 
+   16.              "has_superstructure_bamboo" 18.000000 
+   17. "has_superstructure_cement_mortar_brick" 18.000000 
+   18.    "has_superstructure_mud_mortar_brick" 11.000000 
+   19. "has_superstructure_cement_mortar_stone"  8.000000 
+   20.    "has_superstructure_mud_mortar_stone"  5.000000 
+   21.       "has_superstructure_rc_engineered"  4.000000 
+   22.              "has_superstructure_timber"  4.000000 
+   23.                      "height_percentage"  4.000000 
+   24.               "has_superstructure_other"  3.000000 
+   25.   "has_superstructure_rc_non_engineered"  1.000000 
+   26.          "has_superstructure_stone_flag"  1.000000 
+
+Variable Importance: SUM_SCORE:
+    1.                                    "age" 83190.218438 ################
+    2.                         "geo_level_1_id" 44026.003788 ########
+    3.                      "foundation_type_r" 43713.435857 ########
+    4.                        "area_percentage" 37748.897500 #######
+    5.                      "foundation_type_h" 24199.581674 ####
+    6.                         "count_families" 23344.098556 ####
+    7.                    "count_floors_pre_eq" 22169.330824 ####
+    8.                      "foundation_type_u" 11262.018384 ##
+    9.                         "geo_level_2_id" 9601.661024 #
+   10.                         "geo_level_3_id" 6878.928823 #
+   11.           "has_superstructure_adobe_mud" 1699.935549 
+   12.                    "ground_floor_type_x" 701.418049 
+   13.                    "ground_floor_type_f" 325.235894 
+   14.    "has_superstructure_mud_mortar_brick" 310.683825 
+   15.              "has_superstructure_bamboo" 295.380618 
+   16.                      "has_secondary_use" 280.467991 
+   17.                    "ground_floor_type_v" 269.311554 
+   18. "has_superstructure_cement_mortar_brick" 256.836741 
+   19. "has_superstructure_cement_mortar_stone" 138.558644 
+   20.    "has_superstructure_mud_mortar_stone" 89.371893 
+   21.       "has_superstructure_rc_engineered" 73.076308 
+   22.              "has_superstructure_timber" 59.414303 
+   23.                      "height_percentage" 43.134571 
+   24.               "has_superstructure_other" 32.681194 
+   25.          "has_superstructure_stone_flag"  9.819588 
+   26.   "has_superstructure_rc_non_engineered"  6.336792 
+
+
+Hyperparameter optimizer:
+
+Best parameters: split_axis:SPARSE_OBLIQUE sparse_oblique_projection_density_factor:5 sparse_oblique_normalization:MIN_MAX sparse_oblique_weights:BINARY categorical_algorithm:CART winner_take_all:true max_depth:12 min_examples:40
+Num steps: 1
+Best score: 0.673062
+
+Step #0 score:0.673062 parameters:{ split_axis:SPARSE_OBLIQUE sparse_oblique_projection_density_factor:5 sparse_oblique_normalization:MIN_MAX sparse_oblique_weights:BINARY categorical_algorithm:CART winner_take_all:true max_depth:12 min_examples:40 }
+
+
+Winner takes all: true
+Out-of-bag evaluation: accuracy:0.673062 logloss:1.05062
+Number of trees: 300
+Total number of nodes: 28818
+
+Number of nodes by tree:
+Count: 300 Average: 96.06 StdDev: 3.77488
+Min: 79 Max: 107 Ignored: 0
+----------------------------------------------
+[  79,  80)  1   0.33%   0.33%
+[  80,  81)  0   0.00%   0.33%
+[  81,  83)  0   0.00%   0.33%
+[  83,  84)  0   0.00%   0.33%
+[  84,  86)  2   0.67%   1.00%
+[  86,  87)  0   0.00%   1.00%
+[  87,  89)  3   1.00%   2.00%
+[  89,  90) 10   3.33%   5.33% #
+[  90,  92) 21   7.00%  12.33% ###
+[  92,  93)  0   0.00%  12.33%
+[  93,  94) 42  14.00%  26.33% ######
+[  94,  96) 69  23.00%  49.33% ##########
+[  96,  97)  0   0.00%  49.33%
+[  97,  99) 58  19.33%  68.67% ########
+[  99, 100) 58  19.33%  88.00% ########
+[ 100, 102) 21   7.00%  95.00% ###
+[ 102, 103)  0   0.00%  95.00%
+[ 103, 105) 10   3.33%  98.33% #
+[ 105, 106)  4   1.33%  99.67% #
+[ 106, 107]  1   0.33% 100.00%
+
+Depth by leafs:
+Count: 14559 Average: 6.81194 StdDev: 1.96716
+Min: 2 Max: 11 Ignored: 0
+----------------------------------------------
+[  2,  3)   46   0.32%   0.32%
+[  3,  4)  565   3.88%   4.20% ##
+[  4,  5) 1348   9.26%  13.46% ####
+[  5,  6) 1831  12.58%  26.03% ######
+[  6,  7) 2499  17.16%  43.20% ########
+[  7,  8) 3145  21.60%  64.80% ##########
+[  8,  9) 2269  15.58%  80.38% #######
+[  9, 10) 1448   9.95%  90.33% #####
+[ 10, 11)  840   5.77%  96.10% ###
+[ 11, 11]  568   3.90% 100.00% ##
+
+Number of training obs by leaf:
+Count: 14559 Average: 53.6987 StdDev: 14.5123
+Min: 40 Max: 303 Ignored: 0
+----------------------------------------------
+[  40,  53) 8325  57.18%  57.18% ##########
+[  53,  66) 3435  23.59%  80.77% ####
+[  66,  79) 2401  16.49%  97.27% ###
+[  79,  92)  245   1.68%  98.95%
+[  92, 106)   63   0.43%  99.38%
+[ 106, 119)   23   0.16%  99.54%
+[ 119, 132)   20   0.14%  99.68%
+[ 132, 145)   14   0.10%  99.77%
+[ 145, 158)    7   0.05%  99.82%
+[ 158, 172)    7   0.05%  99.87%
+[ 172, 185)    2   0.01%  99.88%
+[ 185, 198)    4   0.03%  99.91%
+[ 198, 211)    4   0.03%  99.94%
+[ 211, 224)    2   0.01%  99.95%
+[ 224, 238)    3   0.02%  99.97%
+[ 238, 251)    0   0.00%  99.97%
+[ 251, 264)    0   0.00%  99.97%
+[ 264, 277)    2   0.01%  99.99%
+[ 277, 290)    1   0.01%  99.99%
+[ 290, 303]    1   0.01% 100.00%
+
+Attribute in nodes:
+	4181 : age [NUMERICAL]
+	2529 : area_percentage [NUMERICAL]
+	1562 : geo_level_1_id [NUMERICAL]
+	1229 : count_families [NUMERICAL]
+	1111 : count_floors_pre_eq [NUMERICAL]
+	863 : foundation_type_r [NUMERICAL]
+	782 : foundation_type_h [NUMERICAL]
+	718 : geo_level_2_id [NUMERICAL]
+	556 : foundation_type_u [NUMERICAL]
+	546 : geo_level_3_id [NUMERICAL]
+	25 : ground_floor_type_f [NUMERICAL]
+	21 : has_superstructure_adobe_mud [NUMERICAL]
+	21 : ground_floor_type_x [NUMERICAL]
+	20 : has_secondary_use [NUMERICAL]
+	18 : has_superstructure_cement_mortar_brick [NUMERICAL]
+	18 : has_superstructure_bamboo [NUMERICAL]
+	18 : ground_floor_type_v [NUMERICAL]
+	11 : has_superstructure_mud_mortar_brick [NUMERICAL]
+	8 : has_superstructure_cement_mortar_stone [NUMERICAL]
+	5 : has_superstructure_mud_mortar_stone [NUMERICAL]
+	4 : height_percentage [NUMERICAL]
+	4 : has_superstructure_timber [NUMERICAL]
+	4 : has_superstructure_rc_engineered [NUMERICAL]
+	3 : has_superstructure_other [NUMERICAL]
+	1 : has_superstructure_stone_flag [NUMERICAL]
+	1 : has_superstructure_rc_non_engineered [NUMERICAL]
+
+Attribute in nodes with depth <= 0:
+	102 : foundation_type_r [NUMERICAL]
+	66 : age [NUMERICAL]
+	39 : foundation_type_h [NUMERICAL]
+	28 : count_floors_pre_eq [NUMERICAL]
+	27 : area_percentage [NUMERICAL]
+	19 : count_families [NUMERICAL]
+	6 : has_superstructure_adobe_mud [NUMERICAL]
+	5 : geo_level_1_id [NUMERICAL]
+	3 : geo_level_2_id [NUMERICAL]
+	2 : ground_floor_type_x [NUMERICAL]
+	2 : foundation_type_u [NUMERICAL]
+	1 : geo_level_3_id [NUMERICAL]
+
+Attribute in nodes with depth <= 1:
+	306 : age [NUMERICAL]
+	181 : foundation_type_r [NUMERICAL]
+	140 : geo_level_1_id [NUMERICAL]
+	76 : foundation_type_h [NUMERICAL]
+	58 : area_percentage [NUMERICAL]
+	43 : count_floors_pre_eq [NUMERICAL]
+	38 : count_families [NUMERICAL]
+	27 : foundation_type_u [NUMERICAL]
+	8 : geo_level_2_id [NUMERICAL]
+	7 : has_superstructure_adobe_mud [NUMERICAL]
+	6 : geo_level_3_id [NUMERICAL]
+	4 : has_superstructure_mud_mortar_brick [NUMERICAL]
+	3 : ground_floor_type_x [NUMERICAL]
+	1 : has_superstructure_cement_mortar_stone [NUMERICAL]
+	1 : has_superstructure_bamboo [NUMERICAL]
+	1 : has_secondary_use [NUMERICAL]
+
+Attribute in nodes with depth <= 2:
+	637 : age [NUMERICAL]
+	358 : geo_level_1_id [NUMERICAL]
+	269 : foundation_type_r [NUMERICAL]
+	224 : area_percentage [NUMERICAL]
+	136 : foundation_type_h [NUMERICAL]
+	127 : count_families [NUMERICAL]
+	115 : count_floors_pre_eq [NUMERICAL]
+	81 : foundation_type_u [NUMERICAL]
+	39 : geo_level_2_id [NUMERICAL]
+	31 : geo_level_3_id [NUMERICAL]
+	9 : has_superstructure_adobe_mud [NUMERICAL]
+	8 : has_superstructure_mud_mortar_brick [NUMERICAL]
+	6 : has_superstructure_bamboo [NUMERICAL]
+	4 : ground_floor_type_x [NUMERICAL]
+	2 : has_secondary_use [NUMERICAL]
+	2 : ground_floor_type_v [NUMERICAL]
+	1 : height_percentage [NUMERICAL]
+	1 : has_superstructure_rc_engineered [NUMERICAL]
+	1 : has_superstructure_other [NUMERICAL]
+	1 : has_superstructure_mud_mortar_stone [NUMERICAL]
+	1 : has_superstructure_cement_mortar_stone [NUMERICAL]
+	1 : ground_floor_type_f [NUMERICAL]
+
+Attribute in nodes with depth <= 3:
+	1103 : age [NUMERICAL]
+	622 : geo_level_1_id [NUMERICAL]
+	488 : area_percentage [NUMERICAL]
+	402 : foundation_type_r [NUMERICAL]
+	259 : count_families [NUMERICAL]
+	257 : foundation_type_h [NUMERICAL]
+	231 : count_floors_pre_eq [NUMERICAL]
+	169 : foundation_type_u [NUMERICAL]
+	111 : geo_level_2_id [NUMERICAL]
+	91 : geo_level_3_id [NUMERICAL]
+	13 : has_superstructure_adobe_mud [NUMERICAL]
+	8 : has_superstructure_mud_mortar_brick [NUMERICAL]
+	7 : has_superstructure_bamboo [NUMERICAL]
+	5 : has_superstructure_cement_mortar_stone [NUMERICAL]
+	5 : ground_floor_type_x [NUMERICAL]
+	5 : ground_floor_type_v [NUMERICAL]
+	4 : has_superstructure_cement_mortar_brick [NUMERICAL]
+	4 : has_secondary_use [NUMERICAL]
+	4 : ground_floor_type_f [NUMERICAL]
+	3 : has_superstructure_mud_mortar_stone [NUMERICAL]
+	2 : has_superstructure_rc_engineered [NUMERICAL]
+	2 : has_superstructure_other [NUMERICAL]
+	1 : height_percentage [NUMERICAL]
+	1 : has_superstructure_timber [NUMERICAL]
+
+Attribute in nodes with depth <= 5:
+	2351 : age [NUMERICAL]
+	1260 : area_percentage [NUMERICAL]
+	1213 : geo_level_1_id [NUMERICAL]
+	689 : count_families [NUMERICAL]
+	644 : foundation_type_r [NUMERICAL]
+	623 : count_floors_pre_eq [NUMERICAL]
+	525 : foundation_type_h [NUMERICAL]
+	361 : foundation_type_u [NUMERICAL]
+	328 : geo_level_2_id [NUMERICAL]
+	258 : geo_level_3_id [NUMERICAL]
+	18 : has_superstructure_adobe_mud [NUMERICAL]
+	15 : has_superstructure_bamboo [NUMERICAL]
+	15 : has_secondary_use [NUMERICAL]
+	14 : ground_floor_type_f [NUMERICAL]
+	13 : has_superstructure_cement_mortar_brick [NUMERICAL]
+	10 : ground_floor_type_v [NUMERICAL]
+	9 : has_superstructure_mud_mortar_brick [NUMERICAL]
+	9 : ground_floor_type_x [NUMERICAL]
+	6 : has_superstructure_cement_mortar_stone [NUMERICAL]
+	5 : has_superstructure_mud_mortar_stone [NUMERICAL]
+	4 : has_superstructure_timber [NUMERICAL]
+	4 : has_superstructure_rc_engineered [NUMERICAL]
+	3 : has_superstructure_other [NUMERICAL]
+	2 : height_percentage [NUMERICAL]
+	1 : has_superstructure_stone_flag [NUMERICAL]
+
+Condition type in nodes:
+	14259 : ObliqueCondition
+Condition type in nodes with depth <= 0:
+	300 : ObliqueCondition
+Condition type in nodes with depth <= 1:
+	900 : ObliqueCondition
+Condition type in nodes with depth <= 2:
+	2054 : ObliqueCondition
+Condition type in nodes with depth <= 3:
+	3797 : ObliqueCondition
+Condition type in nodes with depth <= 5:
+	8380 : ObliqueCondition
+Node format: NOT_SET
+
+Training OOB:
+	trees: 1, Out-of-bag evaluation: accuracy:0.589397 logloss:14.7996
+	trees: 11, Out-of-bag evaluation: accuracy:0.635449 logloss:5.76624
+	trees: 21, Out-of-bag evaluation: accuracy:0.654643 logloss:3.26896
+	trees: 31, Out-of-bag evaluation: accuracy:0.660015 logloss:2.21922
+	trees: 41, Out-of-bag evaluation: accuracy:0.666155 logloss:1.84588
+	trees: 51, Out-of-bag evaluation: accuracy:0.661167 logloss:1.67978
+	trees: 61, Out-of-bag evaluation: accuracy:0.666923 logloss:1.57398
+	trees: 71, Out-of-bag evaluation: accuracy:0.666539 logloss:1.47204
+	trees: 81, Out-of-bag evaluation: accuracy:0.666539 logloss:1.38685
+	trees: 91, Out-of-bag evaluation: accuracy:0.66462 logloss:1.33769
+	trees: 101, Out-of-bag evaluation: accuracy:0.668457 logloss:1.31115
+	trees: 111, Out-of-bag evaluation: accuracy:0.668841 logloss:1.28507
+	trees: 121, Out-of-bag evaluation: accuracy:0.669609 logloss:1.22217
+	trees: 131, Out-of-bag evaluation: accuracy:0.669225 logloss:1.1976
+	trees: 141, Out-of-bag evaluation: accuracy:0.669225 logloss:1.1843
+	trees: 151, Out-of-bag evaluation: accuracy:0.674597 logloss:1.14695
+	trees: 161, Out-of-bag evaluation: accuracy:0.671911 logloss:1.13413
+	trees: 171, Out-of-bag evaluation: accuracy:0.672678 logloss:1.13481
+	trees: 181, Out-of-bag evaluation: accuracy:0.67076 logloss:1.10894
+	trees: 191, Out-of-bag evaluation: accuracy:0.67076 logloss:1.10933
+	trees: 201, Out-of-bag evaluation: accuracy:0.671911 logloss:1.11047
+	trees: 211, Out-of-bag evaluation: accuracy:0.671144 logloss:1.09888
+	trees: 221, Out-of-bag evaluation: accuracy:0.671144 logloss:1.0858
+	trees: 231, Out-of-bag evaluation: accuracy:0.673062 logloss:1.06052
+	trees: 241, Out-of-bag evaluation: accuracy:0.672295 logloss:1.06175
+	trees: 251, Out-of-bag evaluation: accuracy:0.672678 logloss:1.06332
+	trees: 261, Out-of-bag evaluation: accuracy:0.669225 logloss:1.06415
+	trees: 271, Out-of-bag evaluation: accuracy:0.668841 logloss:1.05179
+	trees: 281, Out-of-bag evaluation: accuracy:0.672295 logloss:1.05125
+	trees: 291, Out-of-bag evaluation: accuracy:0.672295 logloss:1.05063
+	trees: 300, Out-of-bag evaluation: accuracy:0.673062 logloss:1.05062
+
