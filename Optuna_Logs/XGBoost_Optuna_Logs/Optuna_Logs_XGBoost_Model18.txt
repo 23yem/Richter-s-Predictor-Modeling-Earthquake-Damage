@@ -1,0 +1,53 @@
+[I 2024-01-14 17:33:46,641] A new study created in memory with name: no-name-3d48bd26-25e0-443c-b59c-3ef5141a2ea8
+/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:33:49] WARNING: /workspace/src/learner.cc:742: 
+Parameters: { "n_estimators", "predictor" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:33:50] WARNING: /workspace/src/learner.cc:742: 
+Parameters: { "n_estimators", "predictor" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+[I 2024-01-14 17:34:32,653] Trial 0 finished with value: -0.5806811458873865 and parameters: {'max_depth': 17, 'min_child_weight': 5, 'gamma': 0.01917741395778305}. Best is trial 0 with value: -0.5806811458873865.
+/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:34:33] WARNING: /workspace/src/learner.cc:742: 
+Parameters: { "n_estimators", "predictor" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+[I 2024-01-14 17:35:44,810] Trial 1 finished with value: -0.5738111715726726 and parameters: {'max_depth': 10, 'min_child_weight': 5, 'gamma': 0.10050201260179825}. Best is trial 1 with value: -0.5738111715726726.
+/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:35:45] WARNING: /workspace/src/learner.cc:742: 
+Parameters: { "n_estimators", "predictor" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:35:46] WARNING: /workspace/src/learner.cc:742: 
+Parameters: { "n_estimators", "predictor" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+[I 2024-01-14 17:36:28,187] Trial 2 finished with value: -0.5829927223711134 and parameters: {'max_depth': 16, 'min_child_weight': 3, 'gamma': 0.15444513154311956}. Best is trial 1 with value: -0.5738111715726726.
+/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:36:28] WARNING: /workspace/src/learner.cc:742: 
+Parameters: { "n_estimators", "predictor" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:36:29] WARNING: /workspace/src/learner.cc:742: 
+Parameters: { "n_estimators", "predictor" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+[I 2024-01-14 17:37:41,974] Trial 3 finished with value: -0.5765628631368795 and parameters: {'max_depth': 9, 'min_child_weight': 1, 'gamma': 0.34861619887458284}. Best is trial 1 with value: -0.5738111715726726.
+/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:37:42] WARNING: /workspace/src/learner.cc:742: 
+Parameters: { "n_estimators", "predictor" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+[W 2024-01-14 17:37:58,370] Trial 4 failed with parameters: {'max_depth': 9, 'min_child_weight': 10, 'gamma': 0.4777483048060906} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/home/michaelye22/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "/tmp/ipykernel_1536/3490060146.py", line 40, in objective
+    cv_results = xgb.cv(
+  File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/training.py", line 570, in cv
+    booster.update(i, obj)
+  File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/training.py", line 229, in update
+    fold.update(iteration, obj)
+  File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/training.py", line 215, in update
+    self.bst.update(self.dtrain, iteration, fobj)
+  File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py", line 2051, in update
+    _LIB.XGBoosterUpdateOneIter(
+KeyboardInterrupt
+[W 2024-01-14 17:37:58,372] Trial 4 failed with value None.
