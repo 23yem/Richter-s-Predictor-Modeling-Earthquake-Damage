@@ -1,142 +1,142 @@
 [I 2024-01-14 18:05:33,353] A new study created in memory with name: no-name-0acc1a54-9343-4ee8-829e-a3df50c284a2
-[I 2024-01-14 18:06:40,244] Trial 0 finished with value: 0.7461675244935618 and parameters: {'max_depth': 13, 'min_child_weight': 10, 'gamma': 0.0051752154879675105}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:07:14,611] Trial 1 finished with value: 0.7410716083742972 and parameters: {'max_depth': 9, 'min_child_weight': 5, 'gamma': 0.42976934166745817}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:08:57,241] Trial 2 finished with value: 0.7406379900315493 and parameters: {'max_depth': 17, 'min_child_weight': 2, 'gamma': 0.052433242647555056}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:10:15,278] Trial 3 finished with value: 0.7433317646259192 and parameters: {'max_depth': 13, 'min_child_weight': 1, 'gamma': 0.27829964381769234}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:11:36,516] Trial 4 finished with value: 0.7442450376296151 and parameters: {'max_depth': 16, 'min_child_weight': 5, 'gamma': 0.2336443673896843}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:12:17,988] Trial 5 finished with value: 0.7432550232933246 and parameters: {'max_depth': 10, 'min_child_weight': 6, 'gamma': 0.16961357620490153}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:13:53,812] Trial 6 finished with value: 0.7425681442039137 and parameters: {'max_depth': 16, 'min_child_weight': 2, 'gamma': 0.2875494316889754}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:14:59,601] Trial 7 finished with value: 0.7459487957526307 and parameters: {'max_depth': 12, 'min_child_weight': 3, 'gamma': 0.2779704043957566}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:16:15,293] Trial 8 finished with value: 0.7445059740777051 and parameters: {'max_depth': 15, 'min_child_weight': 4, 'gamma': 0.34975045701353186}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:18:24,216] Trial 9 finished with value: 0.7395405244891591 and parameters: {'max_depth': 20, 'min_child_weight': 2, 'gamma': 0.0480850458287192}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:19:23,491] Trial 10 finished with value: 0.7457262347195144 and parameters: {'max_depth': 12, 'min_child_weight': 10, 'gamma': 0.1357341141040293}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:20:13,547] Trial 11 finished with value: 0.7440186444515591 and parameters: {'max_depth': 12, 'min_child_weight': 10, 'gamma': 0.4935583660875178}. Best is trial 0 with value: 0.7461675244935618.
-[I 2024-01-14 18:21:25,435] Trial 12 finished with value: 0.7464745073461875 and parameters: {'max_depth': 13, 'min_child_weight': 8, 'gamma': 0.139363181221848}. Best is trial 12 with value: 0.7464745073461875.
-[I 2024-01-14 18:22:38,586] Trial 13 finished with value: 0.7462289166319891 and parameters: {'max_depth': 14, 'min_child_weight': 8, 'gamma': 0.002510321788951044}. Best is trial 12 with value: 0.7464745073461875.
-[I 2024-01-14 18:24:10,479] Trial 14 finished with value: 0.7447208652992255 and parameters: {'max_depth': 18, 'min_child_weight': 8, 'gamma': 0.13260599953400404}. Best is trial 12 with value: 0.7464745073461875.
-[I 2024-01-14 18:25:25,341] Trial 15 finished with value: 0.7456878574639687 and parameters: {'max_depth': 15, 'min_child_weight': 8, 'gamma': 0.08588881964930399}. Best is trial 12 with value: 0.7464745073461875.
-[I 2024-01-14 18:26:45,652] Trial 16 finished with value: 0.746140658176544 and parameters: {'max_depth': 14, 'min_child_weight': 8, 'gamma': 0.19062351242095826}. Best is trial 12 with value: 0.7464745073461875.
-[I 2024-01-14 18:27:57,799] Trial 17 finished with value: 0.746693225853537 and parameters: {'max_depth': 10, 'min_child_weight': 7, 'gamma': 0.01778659172817425}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:28:59,733] Trial 18 finished with value: 0.7460217068544808 and parameters: {'max_depth': 10, 'min_child_weight': 7, 'gamma': 0.09586264093184191}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:29:53,639] Trial 19 finished with value: 0.7456763494703562 and parameters: {'max_depth': 10, 'min_child_weight': 6, 'gamma': 0.2248324683577711}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:30:54,276] Trial 20 finished with value: 0.7456418152559375 and parameters: {'max_depth': 11, 'min_child_weight': 9, 'gamma': 0.10773481084539896}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:32:12,879] Trial 21 finished with value: 0.7456187895504914 and parameters: {'max_depth': 14, 'min_child_weight': 7, 'gamma': 0.0021436365598914604}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:33:11,641] Trial 22 finished with value: 0.7453233201395719 and parameters: {'max_depth': 9, 'min_child_weight': 7, 'gamma': 0.041947527131612546}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:34:29,578] Trial 23 finished with value: 0.7465052027896066 and parameters: {'max_depth': 13, 'min_child_weight': 9, 'gamma': 0.06293905480025222}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:35:40,319] Trial 24 finished with value: 0.7462519447669904 and parameters: {'max_depth': 11, 'min_child_weight': 9, 'gamma': 0.0694625995921965}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:36:49,703] Trial 25 finished with value: 0.7458989116814387 and parameters: {'max_depth': 13, 'min_child_weight': 9, 'gamma': 0.11510760296481987}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:37:52,438] Trial 26 finished with value: 0.7460984539296607 and parameters: {'max_depth': 11, 'min_child_weight': 7, 'gamma': 0.18762795019770334}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:38:55,033] Trial 27 finished with value: 0.7457953033692204 and parameters: {'max_depth': 12, 'min_child_weight': 9, 'gamma': 0.15877460755582035}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:40:14,883] Trial 28 finished with value: 0.7433010630718004 and parameters: {'max_depth': 19, 'min_child_weight': 6, 'gamma': 0.02902567381177125}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:41:21,813] Trial 29 finished with value: 0.7462289220800827 and parameters: {'max_depth': 13, 'min_child_weight': 10, 'gamma': 0.0740675038563317}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:42:48,909] Trial 30 finished with value: 0.7456609963005529 and parameters: {'max_depth': 16, 'min_child_weight': 8, 'gamma': 0.028190801435877023}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:44:00,200] Trial 31 finished with value: 0.74621740642969 and parameters: {'max_depth': 11, 'min_child_weight': 9, 'gamma': 0.06878807065751667}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:44:58,442] Trial 32 finished with value: 0.7462020591497178 and parameters: {'max_depth': 11, 'min_child_weight': 9, 'gamma': 0.07291488909762481}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:45:51,525] Trial 33 finished with value: 0.7454000633863616 and parameters: {'max_depth': 9, 'min_child_weight': 10, 'gamma': 0.13266950683960752}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:46:51,317] Trial 34 finished with value: 0.7458221658578481 and parameters: {'max_depth': 10, 'min_child_weight': 7, 'gamma': 0.024702100921506293}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:48:02,596] Trial 35 finished with value: 0.7465781137442108 and parameters: {'max_depth': 13, 'min_child_weight': 8, 'gamma': 0.059837333503271806}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:49:04,718] Trial 36 finished with value: 0.7450278471211309 and parameters: {'max_depth': 13, 'min_child_weight': 5, 'gamma': 0.3346068249690254}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:50:26,911] Trial 37 finished with value: 0.745933446263972 and parameters: {'max_depth': 15, 'min_child_weight': 8, 'gamma': 0.10466246443080916}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:51:46,233] Trial 38 finished with value: 0.7456072759615395 and parameters: {'max_depth': 14, 'min_child_weight': 6, 'gamma': 0.15891163656537127}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:53:24,631] Trial 39 finished with value: 0.7434085081672005 and parameters: {'max_depth': 17, 'min_child_weight': 4, 'gamma': 0.05969607859060941}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:54:42,321] Trial 40 finished with value: 0.7464476409555467 and parameters: {'max_depth': 13, 'min_child_weight': 7, 'gamma': 0.024433029359693874}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:55:47,662] Trial 41 finished with value: 0.7456763499857164 and parameters: {'max_depth': 13, 'min_child_weight': 7, 'gamma': 0.032288096221602475}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:56:46,997] Trial 42 finished with value: 0.7456840228158508 and parameters: {'max_depth': 12, 'min_child_weight': 8, 'gamma': 0.00044162753120223497}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:58:06,070] Trial 43 finished with value: 0.74647450638909 and parameters: {'max_depth': 13, 'min_child_weight': 6, 'gamma': 0.05154951761194083}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 18:59:15,681] Trial 44 finished with value: 0.7460754250584304 and parameters: {'max_depth': 12, 'min_child_weight': 6, 'gamma': 0.052804818423160635}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 19:00:34,242] Trial 45 finished with value: 0.744532837081693 and parameters: {'max_depth': 14, 'min_child_weight': 4, 'gamma': 0.12903255470516417}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 19:01:53,131] Trial 46 finished with value: 0.7451429621753726 and parameters: {'max_depth': 15, 'min_child_weight': 5, 'gamma': 0.20786831086900137}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 19:03:30,571] Trial 47 finished with value: 0.7455727348265694 and parameters: {'max_depth': 16, 'min_child_weight': 8, 'gamma': 0.0854529073757924}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 19:04:37,868] Trial 48 finished with value: 0.7460562392283273 and parameters: {'max_depth': 13, 'min_child_weight': 6, 'gamma': 0.2628126204564032}. Best is trial 17 with value: 0.746693225853537.
-[I 2024-01-14 19:05:35,949] Trial 49 finished with value: 0.744816795995822 and parameters: {'max_depth': 12, 'min_child_weight': 5, 'gamma': 0.31602669172084313}. Best is trial 17 with value: 0.746693225853537.
-Best trial: score 0.746693225853537, params {'max_depth': 10, 'min_child_weight': 7, 'gamma': 0.01778659172817425}
+# [I 2024-01-14 18:06:40,244] Trial 0 finished with value: 0.7461675244935618 and parameters: {'max_depth': 13, 'min_child_weight': 10, 'gamma': 0.0051752154879675105}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:07:14,611] Trial 1 finished with value: 0.7410716083742972 and parameters: {'max_depth': 9, 'min_child_weight': 5, 'gamma': 0.42976934166745817}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:08:57,241] Trial 2 finished with value: 0.7406379900315493 and parameters: {'max_depth': 17, 'min_child_weight': 2, 'gamma': 0.052433242647555056}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:10:15,278] Trial 3 finished with value: 0.7433317646259192 and parameters: {'max_depth': 13, 'min_child_weight': 1, 'gamma': 0.27829964381769234}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:11:36,516] Trial 4 finished with value: 0.7442450376296151 and parameters: {'max_depth': 16, 'min_child_weight': 5, 'gamma': 0.2336443673896843}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:12:17,988] Trial 5 finished with value: 0.7432550232933246 and parameters: {'max_depth': 10, 'min_child_weight': 6, 'gamma': 0.16961357620490153}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:13:53,812] Trial 6 finished with value: 0.7425681442039137 and parameters: {'max_depth': 16, 'min_child_weight': 2, 'gamma': 0.2875494316889754}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:14:59,601] Trial 7 finished with value: 0.7459487957526307 and parameters: {'max_depth': 12, 'min_child_weight': 3, 'gamma': 0.2779704043957566}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:16:15,293] Trial 8 finished with value: 0.7445059740777051 and parameters: {'max_depth': 15, 'min_child_weight': 4, 'gamma': 0.34975045701353186}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:18:24,216] Trial 9 finished with value: 0.7395405244891591 and parameters: {'max_depth': 20, 'min_child_weight': 2, 'gamma': 0.0480850458287192}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:19:23,491] Trial 10 finished with value: 0.7457262347195144 and parameters: {'max_depth': 12, 'min_child_weight': 10, 'gamma': 0.1357341141040293}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:20:13,547] Trial 11 finished with value: 0.7440186444515591 and parameters: {'max_depth': 12, 'min_child_weight': 10, 'gamma': 0.4935583660875178}. Best is trial 0 with value: 0.7461675244935618.
+# [I 2024-01-14 18:21:25,435] Trial 12 finished with value: 0.7464745073461875 and parameters: {'max_depth': 13, 'min_child_weight': 8, 'gamma': 0.139363181221848}. Best is trial 12 with value: 0.7464745073461875.
+# [I 2024-01-14 18:22:38,586] Trial 13 finished with value: 0.7462289166319891 and parameters: {'max_depth': 14, 'min_child_weight': 8, 'gamma': 0.002510321788951044}. Best is trial 12 with value: 0.7464745073461875.
+# [I 2024-01-14 18:24:10,479] Trial 14 finished with value: 0.7447208652992255 and parameters: {'max_depth': 18, 'min_child_weight': 8, 'gamma': 0.13260599953400404}. Best is trial 12 with value: 0.7464745073461875.
+# [I 2024-01-14 18:25:25,341] Trial 15 finished with value: 0.7456878574639687 and parameters: {'max_depth': 15, 'min_child_weight': 8, 'gamma': 0.08588881964930399}. Best is trial 12 with value: 0.7464745073461875.
+# [I 2024-01-14 18:26:45,652] Trial 16 finished with value: 0.746140658176544 and parameters: {'max_depth': 14, 'min_child_weight': 8, 'gamma': 0.19062351242095826}. Best is trial 12 with value: 0.7464745073461875.
+# [I 2024-01-14 18:27:57,799] Trial 17 finished with value: 0.746693225853537 and parameters: {'max_depth': 10, 'min_child_weight': 7, 'gamma': 0.01778659172817425}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:28:59,733] Trial 18 finished with value: 0.7460217068544808 and parameters: {'max_depth': 10, 'min_child_weight': 7, 'gamma': 0.09586264093184191}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:29:53,639] Trial 19 finished with value: 0.7456763494703562 and parameters: {'max_depth': 10, 'min_child_weight': 6, 'gamma': 0.2248324683577711}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:30:54,276] Trial 20 finished with value: 0.7456418152559375 and parameters: {'max_depth': 11, 'min_child_weight': 9, 'gamma': 0.10773481084539896}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:32:12,879] Trial 21 finished with value: 0.7456187895504914 and parameters: {'max_depth': 14, 'min_child_weight': 7, 'gamma': 0.0021436365598914604}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:33:11,641] Trial 22 finished with value: 0.7453233201395719 and parameters: {'max_depth': 9, 'min_child_weight': 7, 'gamma': 0.041947527131612546}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:34:29,578] Trial 23 finished with value: 0.7465052027896066 and parameters: {'max_depth': 13, 'min_child_weight': 9, 'gamma': 0.06293905480025222}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:35:40,319] Trial 24 finished with value: 0.7462519447669904 and parameters: {'max_depth': 11, 'min_child_weight': 9, 'gamma': 0.0694625995921965}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:36:49,703] Trial 25 finished with value: 0.7458989116814387 and parameters: {'max_depth': 13, 'min_child_weight': 9, 'gamma': 0.11510760296481987}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:37:52,438] Trial 26 finished with value: 0.7460984539296607 and parameters: {'max_depth': 11, 'min_child_weight': 7, 'gamma': 0.18762795019770334}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:38:55,033] Trial 27 finished with value: 0.7457953033692204 and parameters: {'max_depth': 12, 'min_child_weight': 9, 'gamma': 0.15877460755582035}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:40:14,883] Trial 28 finished with value: 0.7433010630718004 and parameters: {'max_depth': 19, 'min_child_weight': 6, 'gamma': 0.02902567381177125}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:41:21,813] Trial 29 finished with value: 0.7462289220800827 and parameters: {'max_depth': 13, 'min_child_weight': 10, 'gamma': 0.0740675038563317}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:42:48,909] Trial 30 finished with value: 0.7456609963005529 and parameters: {'max_depth': 16, 'min_child_weight': 8, 'gamma': 0.028190801435877023}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:44:00,200] Trial 31 finished with value: 0.74621740642969 and parameters: {'max_depth': 11, 'min_child_weight': 9, 'gamma': 0.06878807065751667}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:44:58,442] Trial 32 finished with value: 0.7462020591497178 and parameters: {'max_depth': 11, 'min_child_weight': 9, 'gamma': 0.07291488909762481}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:45:51,525] Trial 33 finished with value: 0.7454000633863616 and parameters: {'max_depth': 9, 'min_child_weight': 10, 'gamma': 0.13266950683960752}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:46:51,317] Trial 34 finished with value: 0.7458221658578481 and parameters: {'max_depth': 10, 'min_child_weight': 7, 'gamma': 0.024702100921506293}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:48:02,596] Trial 35 finished with value: 0.7465781137442108 and parameters: {'max_depth': 13, 'min_child_weight': 8, 'gamma': 0.059837333503271806}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:49:04,718] Trial 36 finished with value: 0.7450278471211309 and parameters: {'max_depth': 13, 'min_child_weight': 5, 'gamma': 0.3346068249690254}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:50:26,911] Trial 37 finished with value: 0.745933446263972 and parameters: {'max_depth': 15, 'min_child_weight': 8, 'gamma': 0.10466246443080916}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:51:46,233] Trial 38 finished with value: 0.7456072759615395 and parameters: {'max_depth': 14, 'min_child_weight': 6, 'gamma': 0.15891163656537127}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:53:24,631] Trial 39 finished with value: 0.7434085081672005 and parameters: {'max_depth': 17, 'min_child_weight': 4, 'gamma': 0.05969607859060941}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:54:42,321] Trial 40 finished with value: 0.7464476409555467 and parameters: {'max_depth': 13, 'min_child_weight': 7, 'gamma': 0.024433029359693874}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:55:47,662] Trial 41 finished with value: 0.7456763499857164 and parameters: {'max_depth': 13, 'min_child_weight': 7, 'gamma': 0.032288096221602475}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:56:46,997] Trial 42 finished with value: 0.7456840228158508 and parameters: {'max_depth': 12, 'min_child_weight': 8, 'gamma': 0.00044162753120223497}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:58:06,070] Trial 43 finished with value: 0.74647450638909 and parameters: {'max_depth': 13, 'min_child_weight': 6, 'gamma': 0.05154951761194083}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 18:59:15,681] Trial 44 finished with value: 0.7460754250584304 and parameters: {'max_depth': 12, 'min_child_weight': 6, 'gamma': 0.052804818423160635}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 19:00:34,242] Trial 45 finished with value: 0.744532837081693 and parameters: {'max_depth': 14, 'min_child_weight': 4, 'gamma': 0.12903255470516417}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 19:01:53,131] Trial 46 finished with value: 0.7451429621753726 and parameters: {'max_depth': 15, 'min_child_weight': 5, 'gamma': 0.20786831086900137}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 19:03:30,571] Trial 47 finished with value: 0.7455727348265694 and parameters: {'max_depth': 16, 'min_child_weight': 8, 'gamma': 0.0854529073757924}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 19:04:37,868] Trial 48 finished with value: 0.7460562392283273 and parameters: {'max_depth': 13, 'min_child_weight': 6, 'gamma': 0.2628126204564032}. Best is trial 17 with value: 0.746693225853537.
+# [I 2024-01-14 19:05:35,949] Trial 49 finished with value: 0.744816795995822 and parameters: {'max_depth': 12, 'min_child_weight': 5, 'gamma': 0.31602669172084313}. Best is trial 17 with value: 0.746693225853537.
+# Best trial: score 0.746693225853537, params {'max_depth': 10, 'min_child_weight': 7, 'gamma': 0.01778659172817425}
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
-[I 2024-01-14 17:33:46,641] A new study created in memory with name: no-name-3d48bd26-25e0-443c-b59c-3ef5141a2ea8
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:33:49] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+# [I 2024-01-14 17:33:46,641] A new study created in memory with name: no-name-3d48bd26-25e0-443c-b59c-3ef5141a2ea8
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:33:49] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:33:50] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:33:50] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-[I 2024-01-14 17:34:32,653] Trial 0 finished with value: -0.5806811458873865 and parameters: {'max_depth': 17, 'min_child_weight': 5, 'gamma': 0.01917741395778305}. Best is trial 0 with value: -0.5806811458873865.
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:34:33] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# [I 2024-01-14 17:34:32,653] Trial 0 finished with value: -0.5806811458873865 and parameters: {'max_depth': 17, 'min_child_weight': 5, 'gamma': 0.01917741395778305}. Best is trial 0 with value: -0.5806811458873865.
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:34:33] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-[I 2024-01-14 17:35:44,810] Trial 1 finished with value: -0.5738111715726726 and parameters: {'max_depth': 10, 'min_child_weight': 5, 'gamma': 0.10050201260179825}. Best is trial 1 with value: -0.5738111715726726.
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:35:45] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# [I 2024-01-14 17:35:44,810] Trial 1 finished with value: -0.5738111715726726 and parameters: {'max_depth': 10, 'min_child_weight': 5, 'gamma': 0.10050201260179825}. Best is trial 1 with value: -0.5738111715726726.
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:35:45] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:35:46] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:35:46] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-[I 2024-01-14 17:36:28,187] Trial 2 finished with value: -0.5829927223711134 and parameters: {'max_depth': 16, 'min_child_weight': 3, 'gamma': 0.15444513154311956}. Best is trial 1 with value: -0.5738111715726726.
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:36:28] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# [I 2024-01-14 17:36:28,187] Trial 2 finished with value: -0.5829927223711134 and parameters: {'max_depth': 16, 'min_child_weight': 3, 'gamma': 0.15444513154311956}. Best is trial 1 with value: -0.5738111715726726.
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:36:28] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:36:29] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:36:29] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-[I 2024-01-14 17:37:41,974] Trial 3 finished with value: -0.5765628631368795 and parameters: {'max_depth': 9, 'min_child_weight': 1, 'gamma': 0.34861619887458284}. Best is trial 1 with value: -0.5738111715726726.
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:37:42] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# [I 2024-01-14 17:37:41,974] Trial 3 finished with value: -0.5765628631368795 and parameters: {'max_depth': 9, 'min_child_weight': 1, 'gamma': 0.34861619887458284}. Best is trial 1 with value: -0.5738111715726726.
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:37:42] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-[W 2024-01-14 17:37:58,370] Trial 4 failed with parameters: {'max_depth': 9, 'min_child_weight': 10, 'gamma': 0.4777483048060906} because of the following error: KeyboardInterrupt().
-Traceback (most recent call last):
-  File "/home/michaelye22/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
-    value_or_values = func(trial)
-  File "/tmp/ipykernel_1536/3490060146.py", line 40, in objective
-    cv_results = xgb.cv(
-  File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/training.py", line 570, in cv
-    booster.update(i, obj)
-  File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/training.py", line 229, in update
-    fold.update(iteration, obj)
-  File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/training.py", line 215, in update
-    self.bst.update(self.dtrain, iteration, fobj)
-  File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py", line 2051, in update
-    _LIB.XGBoosterUpdateOneIter(
-KeyboardInterrupt
-[W 2024-01-14 17:37:58,372] Trial 4 failed with value None.
+#   warnings.warn(smsg, UserWarning)
+# [W 2024-01-14 17:37:58,370] Trial 4 failed with parameters: {'max_depth': 9, 'min_child_weight': 10, 'gamma': 0.4777483048060906} because of the following error: KeyboardInterrupt().
+# Traceback (most recent call last):
+#   File "/home/michaelye22/.local/lib/python3.10/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+#     value_or_values = func(trial)
+#   File "/tmp/ipykernel_1536/3490060146.py", line 40, in objective
+#     cv_results = xgb.cv(
+#   File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/training.py", line 570, in cv
+#     booster.update(i, obj)
+#   File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/training.py", line 229, in update
+#     fold.update(iteration, obj)
+#   File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/training.py", line 215, in update
+#     self.bst.update(self.dtrain, iteration, fobj)
+#   File "/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py", line 2051, in update
+#     _LIB.XGBoosterUpdateOneIter(
+# KeyboardInterrupt
+# [W 2024-01-14 17:37:58,372] Trial 4 failed with value None.
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-/home/michaelye22/.local/lib/python3.10/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
-  from .autonotebook import tqdm as notebook_tqdm
-[I 2024-01-14 17:43:42,606] A new study created in memory with name: no-name-d4970b3e-009a-458c-80e7-3a76b762962c
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:43:45] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+# /home/michaelye22/.local/lib/python3.10/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+#   from .autonotebook import tqdm as notebook_tqdm
+# [I 2024-01-14 17:43:42,606] A new study created in memory with name: no-name-d4970b3e-009a-458c-80e7-3a76b762962c
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:43:45] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:43:46] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:43:46] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:43:47] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:43:47] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-[I 2024-01-14 17:45:27,321] Trial 0 finished with value: -0.586367822133189 and parameters: {'max_depth': 17, 'min_child_weight': 1, 'gamma': 0.406333417906668}. Best is trial 0 with value: -0.586367822133189.
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:45:27] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# [I 2024-01-14 17:45:27,321] Trial 0 finished with value: -0.586367822133189 and parameters: {'max_depth': 17, 'min_child_weight': 1, 'gamma': 0.406333417906668}. Best is trial 0 with value: -0.586367822133189.
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:45:27] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
-/home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:45:28] WARNING: /workspace/src/learner.cc:742: 
-Parameters: { "n_estimators", "predictor" } are not used.
+#   warnings.warn(smsg, UserWarning)
+# /home/michaelye22/.local/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [17:45:28] WARNING: /workspace/src/learner.cc:742: 
+# Parameters: { "n_estimators", "predictor" } are not used.
 
-  warnings.warn(smsg, UserWarning)
+#   warnings.warn(smsg, UserWarning)
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
