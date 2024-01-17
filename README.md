@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository hosts the code and resources for the Nepal 2015 Earthquake building damage predictor, a part of the DrivenData Competitions. The project aims to predict the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal based on aspects like building structure and location. This model is an essential tool for disaster management and helps in prioritizing aid and reconstruction efforts.
+This is my third Machine Learning Project. This repository hosts the code and resources for the Nepal 2015 Earthquake building damage predictor, a part of the DrivenData Competitions. The project aims to predict the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal based on aspects like building structure and location. This model is an essential tool for disaster management and helps in prioritizing aid and reconstruction efforts.
 
 [Here's a link to the "Richter's Predictor: Modeling Earthquake Damage" competition](https://www.drivendata.org/competitions/57/nepal-earthquake/)
 
