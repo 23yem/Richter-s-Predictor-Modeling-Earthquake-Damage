@@ -1,5 +1,7 @@
 # Richter's Predictor: Modeling Earthquake Damage
 
+---
+
 ![Earthquake_Image](https://drivendata-prod-public.s3.amazonaws.com/comp_images/earthquake.jpg)
 
 ## Overview
