@@ -1,5 +1,7 @@
 # Richter's Predictor: Modeling Earthquake Damage
 
+![Earthquake_Image](https://drivendata-prod-public.s3.amazonaws.com/comp_images/earthquake.jpg)
+
 ## Overview
 
 This is my third Machine Learning Project. This repository hosts the code and resources for the Nepal 2015 Earthquake building damage predictor, a part of the DrivenData Competitions. The project aims to predict the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal based on aspects like building structure and location. This model is an essential tool for disaster management and helps in prioritizing aid and reconstruction efforts.
