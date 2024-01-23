@@ -10,6 +10,9 @@ This is my third Machine Learning Project. This repository hosts the code and re
 
 [Here's a link to the "Richter's Predictor: Modeling Earthquake Damage" competition](https://www.drivendata.org/competitions/57/nepal-earthquake/)
 
+## Portfolio Website with my BEST Deployed Models in the cloud
+I also made a [custom interactive website for this project](https://michael-ye-ritchers-earthquake-predictor-home.streamlit.app/), which describes the project, my techniques, and most importantly, I deployed my best models and allowed users to pass in images which are given to the model in the cloud and gives back predictions of the image having cancer or not. Try it out at https://michael-ye-ritchers-earthquake-predictor-home.streamlit.app/
+
 ## Repository Structure
 
 - **Jupyter Notebooks:** Each notebook (`Nepal-Earthquake-predictor-*.ipynb`) corresponds to a specific machine learning model, detailing the data processing, model training, evaluation, and prediction stages.
